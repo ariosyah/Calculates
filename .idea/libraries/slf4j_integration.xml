@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="slf4j.integration" type="repository">
+    <properties maven-id="org.slf4j:integration:1.7.32" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/integration-1.7.32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ant-junit-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.apache.felix.main-5.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.apache.felix.framework-5.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
