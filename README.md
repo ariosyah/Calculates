@@ -1,4 +1,4 @@
-# Calculator
+# Calculates
 
 This Java program calculates the result of the expression `(a + b) / (c + d)` based on user-provided inputs for `a`, `b`, `c`, and `d`. It handles scenarios like division by zero and provides test cases to ensure the correctness of the calculation.
 
