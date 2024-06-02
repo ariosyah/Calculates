@@ -18,7 +18,7 @@ To run this program, you need:
 Clone this repository to your local machine:
 
 ```
-git clone https://github.com/ariosyah/calculates.git
+git clone https://github.com/ariosyah/Calculates.git
 ```
 
 ## Usage
