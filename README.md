@@ -1,33 +1,38 @@
-# Calculates
+# Calculator
 
-This project contains TestNG tests to validate a `calculate` method, which performs arithmetic calculations based on input parameters.
+This Java program calculates the result of the expression `(a + b) / (c + d)` based on user-provided inputs for `a`, `b`, `c`, and `d`. It handles scenarios like division by zero and provides test cases to ensure the correctness of the calculation.
 
-## Test Cases
+## Table of Contents
 
-The test cases cover various scenarios including:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
 
-- Valid input values.
-- Cases where the denominator is zero, leading to undefined or NaN results.
-- Positive and negative input values.
+## Installation
 
-## How to Run Tests
+To run this program, you need:
 
-### Prerequisites
+- Java Development Kit (JDK) installed on your system
+- IntelliJ IDEA Community Edition or another Java IDE
 
-Make sure you have [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) installed on your machine.
+Clone this repository to your local machine:
 
-### Steps
+```
+git clone https://github.com/ariosyah/calculates.git
+```
 
-1. **Clone the Repository**: Clone or download this repository to your local machine.
+## Usage
 
-2. **Open the Project**: Open [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) and load the project by selecting `File > Open` and navigating to the directory where you cloned the repository.
+1. Open the project in IntelliJ IDEA or your preferred IDE.
+2. Navigate to `Main.java` located in `src/main/java/com/calculates`.
+3. Run the `Main` class.
+4. Follow the on-screen instructions to input values for `a`, `b`, `c`, and `d`.
+5. The program will output the result of `(a + b) / (c + d)`.
 
-3. **Run the Tests**: Open the `Main.java` file located in the `src` directory. Right-click on the file and choose `Run 'Main'` from the context menu.
+## Tests
 
-4. **Review Test Results**: After running the tests, IntelliJ IDEA will display the results in a test runner window. Ensure that all tests pass successfully.
+This project includes test cases to verify the correctness of the calculation logic. To run the tests:
 
-## Understanding the Code
-
-- The `Main` class contains a `testCalculate` method, which tests the `calculate` method with various input values.
-- Test data is provided through the `testCases` data provider method.
-- The `calculate` method performs a simple arithmetic calculation based on the input parameters (`a`, `b`, `c`, `d`).
+1. Navigate to `MainTest.java` located in `src/test/java/com/calculates`.
+2. Run the test suite.
+3. The tests will evaluate various scenarios including positive numbers, negative numbers, decimal numbers, and edge cases like division by zero.
